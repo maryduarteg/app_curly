@@ -1,0 +1,66 @@
+object dm: Tdm
+  OldCreateOrder = False
+  Height = 411
+  Width = 551
+  object conexao: TFDConnection
+    Params.Strings = (
+      
+        'Database=C:\Users\maryd\OneDrive\'#193'rea de Trabalho\App_Curly - Ma' +
+        'ry Duarte\curlybanco.db'
+      'LockingMode=Normal'
+      'DriverID=SQLite')
+    Connected = True
+    LoginPrompt = False
+    BeforeConnect = conexaoBeforeConnect
+    Left = 16
+    Top = 16
+  end
+  object FDPhysMySQLDriverLink1: TFDPhysMySQLDriverLink
+    Left = 232
+    Top = 80
+  end
+  object FDGUIxWaitCursor1: TFDGUIxWaitCursor
+    Provider = 'FMX'
+    Left = 104
+    Top = 32
+  end
+  object sql_userread: TFDQuery
+    Active = True
+    Connection = conexao
+    SQL.Strings = (
+      'SELECT * FROM user')
+    Left = 416
+    Top = 56
+    object sql_userreaduser_id: TIntegerField
+      FieldName = 'user_id'
+      Origin = 'user_id'
+      ProviderFlags = [pfInUpdate, pfInWhere, pfInKey]
+    end
+    object sql_userreaduser_login: TStringField
+      FieldName = 'user_login'
+      Origin = 'user_login'
+      Size = 15
+    end
+    object sql_userreaduser_senha: TStringField
+      FieldName = 'user_senha'
+      Origin = 'user_senha'
+      Size = 15
+    end
+  end
+  object sql_caduser: TFDQuery
+    Connection = conexao
+    SQL.Strings = (
+      
+        'INSERT INTO user(user_id, user_login, user_senha)VALUES (:cod, '#39 +
+        ':user'#39', '#39':senha'#39')')
+    Left = 160
+    Top = 208
+    ParamData = <
+      item
+        Name = 'COD'
+        DataType = ftInteger
+        ParamType = ptInput
+        Value = Null
+      end>
+  end
+end

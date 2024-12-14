@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/08/16 14:50:01.000.667,=C:\Users\Aluno\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/08/16 14:51:22.000.210,C:\Users\Aluno\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\Tudo\ETEC\PAM\splash.pas</Transaction>
+    <Transaction>2021/08/16 14:51:22.000.210,C:\Users\Aluno\Documents\Embarcadero\Studio\Projects\Unit1.fmx=D:\Tudo\ETEC\PAM\splash.fmx</Transaction>
+    <Transaction>2021/08/16 14:54:11.000.721,=C:\Users\Aluno\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/08/16 14:54:35.000.664,C:\Users\Aluno\Documents\Embarcadero\Studio\Projects\Unit2.fmx=D:\Tudo\ETEC\PAM\login.fmx</Transaction>
+    <Transaction>2021/08/16 14:54:35.000.664,C:\Users\Aluno\Documents\Embarcadero\Studio\Projects\Unit2.pas=D:\Tudo\ETEC\PAM\login.pas</Transaction>
+    <Transaction>2021/08/16 14:55:34.000.757,=C:\Users\Aluno\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2021/08/16 14:56:42.000.106,C:\Users\Aluno\Documents\Embarcadero\Studio\Projects\Unit3.pas=D:\Tudo\ETEC\PAM\menu.pas</Transaction>
+    <Transaction>2021/08/16 14:56:42.000.106,C:\Users\Aluno\Documents\Embarcadero\Studio\Projects\Unit3.fmx=D:\Tudo\ETEC\PAM\menu.fmx</Transaction>
+    <Transaction>2021/08/16 15:04:58.000.202,C:\Users\Aluno\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\Tudo\ETEC\PAM\curly_app.dproj</Transaction>
+    <Transaction>2021/09/20 18:24:35.000.447,=C:\Users\maryd\OneDrive\Área de Trabalho\App_Curly - Mary Duarte\Unit1.pas</Transaction>
+    <Transaction>2021/09/20 18:40:31.000.915,C:\Users\maryd\OneDrive\Área de Trabalho\App_Curly - Mary Duarte\Unit1.dfm=C:\Users\maryd\OneDrive\Área de Trabalho\App_Curly - Mary Duarte\u_dm.dfm</Transaction>
+    <Transaction>2021/09/20 18:40:31.000.915,C:\Users\maryd\OneDrive\Área de Trabalho\App_Curly - Mary Duarte\Unit1.pas=C:\Users\maryd\OneDrive\Área de Trabalho\App_Curly - Mary Duarte\u_dm.pas</Transaction>
+    <Transaction>2021/09/21 17:51:00.000.793,=C:\Users\maryd\OneDrive\Área de Trabalho\App_Curly - Mary Duarte\Unit2.pas</Transaction>
+    <Transaction>2021/09/21 18:07:34.000.933,C:\Users\maryd\OneDrive\Área de Trabalho\App_Curly - Mary Duarte\caduser.pas=C:\Users\maryd\OneDrive\Área de Trabalho\App_Curly - Mary Duarte\Unit2.pas</Transaction>
+    <Transaction>2021/09/21 18:07:34.000.933,C:\Users\maryd\OneDrive\Área de Trabalho\App_Curly - Mary Duarte\caduser.fmx=C:\Users\maryd\OneDrive\Área de Trabalho\App_Curly - Mary Duarte\Unit2.fmx</Transaction>
+    <Transaction>2021/10/05 16:53:57.000.405,=C:\Users\maryd\OneDrive\Área de Trabalho\App_Curly - Mary Duarte\Unit2.pas</Transaction>
+    <Transaction>2021/10/05 17:46:34.000.381,C:\Users\maryd\OneDrive\Área de Trabalho\App_Curly - Mary Duarte\Unit2.fmx=C:\Users\maryd\OneDrive\Área de Trabalho\App_Curly - Mary Duarte\cidade.fmx</Transaction>
+    <Transaction>2021/10/05 17:46:34.000.372,C:\Users\maryd\OneDrive\Área de Trabalho\App_Curly - Mary Duarte\Unit2.pas=C:\Users\maryd\OneDrive\Área de Trabalho\App_Curly - Mary Duarte\cidade.pas</Transaction>
+    <Transaction>2021/10/27 14:33:39.000.777,=C:\Users\maryd\OneDrive\Área de Trabalho\ETEC\App_Curly - Mary Duarte\Unit3.pas</Transaction>
+    <Transaction>2021/10/27 14:40:15.000.805,C:\Users\maryd\OneDrive\Área de Trabalho\ETEC\App_Curly - Mary Duarte\u_dm.pas=</Transaction>
+    <Transaction>2021/10/27 14:51:31.000.207,=C:\Users\maryd\OneDrive\Área de Trabalho\ETEC\App_Curly - Mary Duarte\Unit2.pas</Transaction>
+    <Transaction>2021/10/27 14:52:00.000.723,C:\Users\maryd\OneDrive\Área de Trabalho\ETEC\App_Curly - Mary Duarte\Unit2.fmx=C:\Users\maryd\OneDrive\Área de Trabalho\ETEC\App_Curly - Mary Duarte\cliente.fmx</Transaction>
+    <Transaction>2021/10/27 14:52:00.000.723,C:\Users\maryd\OneDrive\Área de Trabalho\ETEC\App_Curly - Mary Duarte\Unit2.pas=C:\Users\maryd\OneDrive\Área de Trabalho\ETEC\App_Curly - Mary Duarte\cliente.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android=""/>
+	</ActiveMobileDevice>
+</BorlandProject>

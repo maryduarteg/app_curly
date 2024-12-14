@@ -1,0 +1,84 @@
+object f_listacid: Tf_listacid
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 630
+  ClientWidth = 360
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object ScaledLayout1: TScaledLayout
+    Align = Client
+    OriginalWidth = 360.000000000000000000
+    OriginalHeight = 630.000000000000000000
+    Size.Width = 360.000000000000000000
+    Size.Height = 630.000000000000000000
+    Size.PlatformDefault = False
+    object ToolBar1: TToolBar
+      Align = Bottom
+      Position.Y = 582.000000000000000000
+      Size.Width = 360.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      TintColor = claMediumvioletred
+      object bt_menu: TButton
+        Align = FitLeft
+        IconTintColor = claWhite
+        Size.Width = 48.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'deletetoolbutton'
+        TabOrder = 2
+        Text = 'bt_menu'
+      end
+      object bt_saida: TButton
+        Align = FitRight
+        IconTintColor = claWhite
+        Position.X = 312.000000000000000000
+        Size.Width = 48.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'composetoolbutton'
+        TabOrder = 1
+        Text = 'bt_menu'
+      end
+    end
+    object ListView1: TListView
+      ItemAppearanceClassName = 'TListItemAppearance'
+      ItemEditAppearanceClassName = 'TListItemShowCheckAppearance'
+      HeaderAppearanceClassName = 'TListHeaderObjects'
+      FooterAppearanceClassName = 'TListHeaderObjects'
+      ItemIndex = 0
+      Align = Client
+      Size.Width = 360.000000000000000000
+      Size.Height = 582.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      SearchVisible = True
+    end
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = dm.sql_cidread
+    ScopeMappings = <>
+    Left = 168
+    Top = 304
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 220
+    Top = 301
+    object LinkListControlToField1: TLinkListControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'cid_nome'
+      Control = ListView1
+      FillExpressions = <>
+      FillHeaderExpressions = <>
+      FillBreakGroups = <>
+    end
+  end
+end

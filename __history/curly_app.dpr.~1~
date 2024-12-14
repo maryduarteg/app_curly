@@ -1,0 +1,18 @@
+program curly_app;
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  splash in 'splash.pas' {Form1},
+  login in 'login.pas' {Form2},
+  menu in 'menu.pas' {Form3};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TForm2, Form2);
+  Application.CreateForm(TForm3, Form3);
+  Application.Run;
+end.

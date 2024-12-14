@@ -1,0 +1,9 @@
+﻿[dm.sql_userread]
+Visible=False
+
+[dm.sql_cidread]
+Visible=False
+
+[dm.sql_clienteread]
+Visible=False
+

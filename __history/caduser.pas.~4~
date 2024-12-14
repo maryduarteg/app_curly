@@ -1,0 +1,55 @@
+unit caduser;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.StdCtrls,
+  FMX.Edit, FMX.Controls.Presentation, FMX.Layouts;
+
+type
+  Tf_caduser = class(TForm)
+    ScaledLayout1: TScaledLayout;
+    Label1: TLabel;
+    e_cod: TEdit;
+    e_login: TEdit;
+    Button1: TButton;
+    Label4: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    e_senha: TEdit;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  f_caduser: Tf_caduser;
+
+implementation
+
+{$R *.fmx}
+
+uses u_dm;
+
+procedure Tf_caduser.Button1Click(Sender: TObject);
+begin
+      with dm.sql_caduser do
+      begin
+        close;
+        Sql.Clear;
+        Sql.Add( 'INSERT INTO user(user_id, user_login, user_senha)VALUES' +
+        '(:cod, :user, :senha');
+        parambyname('id') := e_cod.Text;
+        parambyname('login')  := e_login.Text;
+        parambyname('senha') := e_senha.Text;
+        ExecSql;
+        ShowMessage('Usuário ' + e_login.Text +' cadastrado com sucesso!');
+
+
+      end;
+end;
+
+end.
